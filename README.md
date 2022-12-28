@@ -46,3 +46,10 @@ If you want more games, you can simple add a new Variable and include it to the 
 If you want every game disables compositor, you can simply remove the vars and IF BLOCK.<br />
 <br />
 
+## Enable gamemode on steam
+
+Enable Gamemode in steam by adding the launch option<br />
+"gamemoderun %command%"<br />
+
+for each game.
+For more game support see https://protondb.com or the subreddit /r/linux_gaming
