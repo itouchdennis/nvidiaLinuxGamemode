@@ -18,6 +18,7 @@ The main usage for the autostart script is undervolting my 3070 ti, if you dont 
 Make sure gamemode and kdialog are installed.<br />
 You could use the install_dependencies.sh to install them, or just<br />
 $ yay -S gamemode kdialog<br />
+you may want to use apt or flatpak if you havent AUR package installer
 
 ## Usage
 
