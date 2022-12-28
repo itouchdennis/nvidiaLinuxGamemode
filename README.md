@@ -19,7 +19,9 @@ $ yay -S gamemode kdialog<br />
 ## Usage
 
 Clone this repo<br />
-mkdir nvidiaLinuxGamemode && git clone https://github.com/itouchdennis/nvidiaLinuxGamemode . && cd nvidiaLinuxGamemode <br />
+<br />
+$ mkdir nvidiaLinuxGamemode && git clone https://github.com/itouchdennis/nvidiaLinuxGamemode . && cd nvidiaLinuxGamemode <br />
+<br />
 Check the autostart/nvidia_autostart.sh! This script will undervolt / overclock your GPU! You may want to adjust the Configs! These Settings are adopted for my 3070TI!<br />
 This script COULD DAMAGE YOUR GPU!<br />
 MAKE SURE YOU KNOW WHAT YOU ARE DOING!<br />
