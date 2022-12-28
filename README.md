@@ -11,6 +11,9 @@ Intel 12600k<br />
 X11 / KDE-Plasma / SDDM<br />
 Newest Nvidia Prop. Driver<br />
 
+The main usage for the autostart script is undervolting my 3070 ti, if you dont want to, or got another card, skip this file!<br />
+<br />
+
 ## Installation
 Make sure gamemode and kdialog are installed.<br />
 You could use the install_dependencies.sh to install them, or just<br />
@@ -46,6 +49,7 @@ If you want more games, you can simple add a new Variable and include it to the 
 If you want every game disables compositor, you can simply remove the vars and IF BLOCK.<br />
 <br />
 
+
 ## Enable gamemode on steam
 
 Enable Gamemode in steam by adding the launch option<br />
@@ -53,3 +57,9 @@ Enable Gamemode in steam by adding the launch option<br />
 
 for each game.
 For more game support see https://protondb.com or the subreddit /r/linux_gaming
+
+## Enable undervolting for 3070 ti
+
+if you want to undervolt slightly your 3070ti just call the autostart script chmod +x autostart/nvidia_autostart.sh && ./autostart/nvidia_autostart.sh
+Check the settings twice! If you got another card, this settings will not work ppbly!
+You may also have to enable the cool bit 8 to set up overclocking for nvidia cards!
