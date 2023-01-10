@@ -64,3 +64,14 @@ For more game support see https://protondb.com or the subreddit /r/linux_gaming
 if you want to undervolt slightly your 3070ti just call the autostart script chmod +x autostart/nvidia_autostart.sh && ./autostart/nvidia_autostart.sh
 Check the settings twice! If you got another card, this settings will not work ppbly!
 You may also have to enable the cool bit 8 to set up overclocking for nvidia cards!
+
+## CS GO Shadercache
+
+Shadercache state from 10.01.2023 for CS:GO Vulkan usage. Pre-Played MM maps, might some missing, but most would work.
+Extract content of the shadercache_730_10.06.2023_cs_go.tar.gz to:
+
+~/.steam/steam/steamapps/shadercache/730
+
+Using startoptions in cs:go
+
+gamemoderun %command%  LD_PRELOAD="" DXVK_HUD=fps,gpuload -novid -tickrate 128 -fullscreen1 -vulkan -nojoy
